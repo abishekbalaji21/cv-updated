@@ -1,0 +1,146 @@
+
+.top-container{
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container{
+  margin-top: 50px;
+
+}
+
+.bottom-container{
+background-color: #66BFBF;
+color: #11999E;
+padding-bottom: 50px;
+padding-top: 25px;
+margin-top: 50px;
+}
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #40514E;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+margin-top: 20px;
+color: #66BFBF;
+}
+
+h3{
+color: #11999E;
+text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-cloud{
+position: absolute;
+left: 300px;
+bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fire{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.profile{
+  width: 35%;
+  margin: 0 auto;
+}
+
+.intro{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+hr{
+  margin: 25px auto;
+  border: 7px dotted #EAF6F6;
+  border-top: none;
+  width: 2.3%;
+}
+
+.rand{
+  text-align: center;
+}
+
+.copy{
+  color: #EAF6F6;
+}
+
+.footer-link{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
